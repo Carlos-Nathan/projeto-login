@@ -23,10 +23,16 @@ body {
     background-color: #5f2c82;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 section#login {
     background-color: white;
     width: 250px;
-    height: 550px;
+    height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
     overflow: hidden;
